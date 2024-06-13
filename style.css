@@ -256,4 +256,7 @@ h2 {
     text-align: left;
     color: #727272;
   }
+  .modal-content {
+    height: 50%;
+  }
 }
