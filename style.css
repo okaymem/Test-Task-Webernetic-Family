@@ -197,3 +197,63 @@ a:hover {
 h2 {
   margin-top: 65px;
 }
+@media (max-width: 1440px) {
+  .demo-version-block {
+    width: 1360px;
+  }
+  .computer-image {
+    width: 680px;
+  }
+}
+
+@media (max-width: 768px) {
+  .demo-version-block {
+    width: 720px;
+  }
+  .computer-image img {
+    width: 720px;
+  }
+  .demo-version-block {
+    flex-direction: column;
+    align-items: normal;
+    height: 614px;
+    gap: 49px;
+  }
+  .about-us-text {
+    margin-left: 24px;
+  }
+}
+@media (max-width: 375px) {
+  .demo-version-block {
+    width: 327px;
+  }
+  .computer-image {
+    width: 327px;
+    height: 220px;
+  }
+  .computer-image img {
+    width: 327px;
+    height: 220px;
+  }
+  .demo-version-block {
+    flex-direction: column;
+    align-items: normal;
+    height: 482px;
+    gap: 50px;
+  }
+  .about-us-text {
+    width: 279px;
+    margin-left: 24px;
+    height: 244px;
+  }
+  .about-us-text p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: left;
+    color: #727272;
+  }
+  .modal-content {
+    height: 50%;
+  }
+}
