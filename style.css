@@ -223,7 +223,7 @@ h2 {
     margin-left: 24px;
   } 
   .modal-content {
-    height: 50%;
+    height: 479px;
   }
 }
 @media (max-width: 375px) {
@@ -257,6 +257,6 @@ h2 {
     color: #727272;
   }
   .modal-content {
-    height: 50%;
+    height: 479px;
   }
 }
